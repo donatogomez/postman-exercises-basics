@@ -22,8 +22,9 @@ Colección `My first collection` que contiene:
 
 ### 📸 Captura
 
-![Ejecución del Runner con 5 iteraciones](../screenshots/07_runner.png)  
-![Resultado del Runner – 5 iteraciones](../runner-reports/runner_result_5_iterations.png)
+![Ejecución del Runner con 5 iteraciones](../screenshots/07_runner_configuration.png)
+
+![Resultado del Runner – 5 iteraciones](../screenshots/07_runner_result_5_iterations.png)
 
 > Esta imagen muestra el resultado completo de la ejecución en lote.  
 > Cada iteración representa un request disparado desde la colección, con su propio `Status` y tiempo de respuesta.

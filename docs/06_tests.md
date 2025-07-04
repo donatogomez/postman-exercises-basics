@@ -13,13 +13,13 @@
 
 ```javascript
 tests["Status code is 200"] = responseCode.code === 200;
-tests["Title is present"] = pm.response.json().title !== undefined; 
+tests["Title is present"] = pm.response.json().title !== undefined;
 ```
 4.	Pulsar **Send** para lanzar la petición.
 5.	Observar los resultados en la pestaña **Test Results**.
 
 ### 📸 Captura
-![Tests ejecutados en Postman](../screenshots/06_tests.png)
+![Tests ejecutados en Postman](../screenshots/06_tests_tab.png)
 
 ### 🧠 Observaciones técnicas
 - Los tests se escriben en JavaScript usando la API de pm.

@@ -22,7 +22,7 @@
 6. Ejecutar la petición.
 
 ### 📸 Captura
-![Uso de variable baseUrl](../screenshots/03_variables_env.png)
+![Uso de variable baseUrl](../screenshots/03_variables.png)
 
 
 ### 🧠 Observaciones técnicas

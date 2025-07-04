@@ -26,7 +26,7 @@ pm.globals.set("userId", Math.floor(Math.random() * 100));
 5.	Pulsar Send varias veces y observar cómo cambia userId dinámicamente.
 
 ### 📸 Captura
-![Pre-request Script en acción](../screenshots/05_pre_request_scripts.png)
+![Pre-request Script en acción](../screenshots/05_pre_request_script.png)
 
 ### 🧠 Observaciones técnicas
 - Los scripts previos permiten modificar variables, headers, tokens, etc. antes de ejecutar la petición.
