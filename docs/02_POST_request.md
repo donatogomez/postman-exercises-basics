@@ -1,15 +1,10 @@
 # 🟠 Ejercicio 2 – Enviar una POST Request
-
 > Realizar una petición `POST` a una API de prueba, enviando datos en formato JSON.  
 > Este ejercicio introduce el uso del cuerpo de la petición (`Body`) y la creación de recursos.
-
----
 
 ## 🧩 Endpoint utilizado
 
 **POST** https://jsonplaceholder.typicode.com/posts
-
----
 
 ## 🛠 Pasos realizados
 
@@ -31,12 +26,10 @@
 ```
 
 ### 📸 Captura
-
 ![Descripción de la imagen](../screenshots/02_post_request.png)
 
----
 
-## 🧠 Observaciones técnicas
+### 🧠 Observaciones técnicas
 - Esta API es mock, no crea nada en el servidor: devuelve un objeto simulado con un id autogenerado.
 - Útil para validar payloads sin consecuencias reales.
 - Este tipo de petición es la base para create en CRUD.

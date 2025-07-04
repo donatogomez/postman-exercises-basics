@@ -1,16 +1,11 @@
 # 🟡 Ejercicio 3 – Uso de variables en Postman
-
 > Parametrizar URLs mediante variables de entorno.  
 > Este ejercicio permite mantener endpoints reutilizables y desacoplar valores estáticos en peticiones.
 
----
-
 ## 🧩 Endpoint utilizado
-
 **GET** {{baseUrl}}/posts/1  
 (baseUrl definido como variable de entorno)
 
----
 
 ## 🛠 Pasos realizados
 
@@ -26,15 +21,11 @@
    - A: `{{baseUrl}}/posts/1`
 6. Ejecutar la petición.
 
----
-
 ### 📸 Captura
-
 ![Uso de variable baseUrl](../screenshots/03_variables_env.png)
 
----
 
-## 🧠 Observaciones técnicas
+### 🧠 Observaciones técnicas
 - Las variables pueden definirse a nivel de entorno, colección o global.
 - El uso de `{{baseUrl}}` mejora la reutilización del request en diferentes entornos (producción, staging, etc.).
 - Ideal para pipelines de CI, pruebas automatizadas o trabajo colaborativo.

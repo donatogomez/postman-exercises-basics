@@ -1,34 +1,28 @@
 # 🔵 Ejercicio 4 – Agrupar peticiones en una colección
-
 > Organizar y reutilizar peticiones agrupándolas en una colección de Postman.  
 > Este ejercicio introduce una estructura modular para escenarios de testing, documentación y ejecución automatizada.
-
----
-
-## 🧩 Endpoint utilizado
-
-Colección con varias peticiones:  
-- **GET** {{baseUrl}}/posts/1  
-- **POST** {{baseUrl}}/posts
-
----
 
 ## 🛠 Pasos realizados
 
 1. Abrir Postman.
 2. Ir a la sección **Collections** (barra lateral izquierda).
-3. Crear una nueva colección llamada: `My first collection`.
-4. Mover o guardar las peticiones de ejercicios anteriores (GET y POST) dentro de esta colección.
-5. Asegurarse de que ambas usan la variable `{{baseUrl}}`.
-6. Guardar la colección.
+3. Crear una nueva colección llamada: `Postman Exercises – Fundamentals`.
+4. Añadir las peticiones de los ejercicios 1 a 6:
+   - Ejercicio 1 – GET
+   - Ejercicio 2 – POST
+   - Ejercicio 3 – GET con variable
+   - Ejercicio 5 – POST con pre-request script
+   - Ejercicio 6 – GET con tests
+5. Guardar la colección ➡️
+[collections/postman_collection.json](../collections/postman_collection.json)
 
 ### 📸 Captura
 
 ![Colección creada en Postman](../screenshots/04_collections.png)
 
----
+### 🧠 Observaciones técnicas
 
-## 🧠 Observaciones técnicas
-- Las colecciones permiten agrupar y versionar conjuntos de peticiones relacionadas.
-- Se pueden exportar en formato `.postman_collection.json` y compartir entre equipos.
-- Es la base para automatizaciones con el Runner o herramientas externas como Newman.
+- Las colecciones permiten **organizar lógicamente las peticiones** y reutilizar configuraciones comunes.
+- Pueden exportarse en `.postman_collection.json` para ser **versionadas o compartidas** con el equipo.
+- Son la base para la **automatización** de pruebas (con Runner o Newman).
+- Agrupar por funcionalidades (GET, POST, etc.) permite escalar el proyecto y mantenerlo comprensible.
